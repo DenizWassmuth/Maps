@@ -41,7 +41,7 @@ public class Main {
 
         System.out.println();
 
-        pharmacy.findMedication("Ritalin").getMedicationAvailability();
+        pharmacy.findMedication("Ritalin").isAvailable();
 
     }
 }
