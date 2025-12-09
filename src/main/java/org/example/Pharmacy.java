@@ -112,6 +112,5 @@ public class Pharmacy {
     @Override
     public String toString() {
         return "Pharmacy entries: " + medicationsMap;
-
     }
 }
