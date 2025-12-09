@@ -35,21 +35,26 @@ public class Medication {
     public String getMedicationName() {
         return medicationName;
     }
+    public void setMedicationName(String medicationName) {
+        this.medicationName = medicationName;
+    }
 
     public float getMedicationPrice() {
         return medicationPrice;
+    }
+    public void setMedicationPrice(float medicationPrice) {
+        this.medicationPrice = medicationPrice;
     }
 
     public boolean getMedicationAvailability() {
         return medicationAvailability;
     }
-
     public void setMedicationAvailability(boolean medicationAvailability) {
         this.medicationAvailability = medicationAvailability;
     }
 
     public boolean isAvailable() {
-        if (medicationAvailability) {
+        if (getMedicationAvailability()) {
             System.out.println(medicationName + " is available");
             return true;
         }
