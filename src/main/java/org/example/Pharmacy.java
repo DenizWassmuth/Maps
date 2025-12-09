@@ -26,9 +26,10 @@ import java.util.*;
 
 public class Pharmacy {
 
-    private Map<String, Medication> medicationsMap = new HashMap<>();
+    private Map<String, Medication> medicationsMap;
 
     public Pharmacy() {
+        medicationsMap = new HashMap<>();
     }
 
     public int getCount() {
