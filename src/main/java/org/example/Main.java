@@ -1,7 +1,5 @@
 /**
  *
- * Schritt 1: Konvertiere deine Anwendung aus der Listen-Vorlesung so, dass das Schulobjekt anstelle einer ArrayList eine Hashmap verwendet.
- *
  * Programmierung: Apotheke
  *
  * Schritt 1: Erstelle eine Klasse ‘Medication’ mit den Methoden ‘getName’, ‘getPrice’ und ‘getAvailability’.
@@ -10,7 +8,9 @@
  * Schritt 4: Erstelle eine Methode ‘void save(Medication medication)’ in der Klasse Pharmacy. Diese Methode soll das Medikament, indiziert nach seinem Namen, in die Apotheke einfügen.
  * Schritt 5: Erstelle eine Methode ‘Medication find(String medicationName)’ in der Klasse Pharmacy. Diese Methode soll das angeforderte Medikament mit diesem Namen zurückgeben. Wenn kein Medikament mit diesem Namen gefunden wird, soll die Methode null zurückgeben.
  * Schritt 6: Erstelle eine Methode ‘void delete(String medicationName)’ in der Klasse Pharmacy. Diese Methode soll das Medikament mit diesem Namen löschen.
- * Schritt 7: Implementiere eine Methode, um alle Medikamente in der Map auszugeben, einschließlich ihres Namens, Preises und Verfügbarkeit.*/
+ * Schritt 7: Implementiere eine Methode, um alle Medikamente in der Map auszugeben, einschließlich ihres Namens, Preises und Verfügbarkeit.
+ *
+ * */
 
 package org.example;
 

@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.*;
 
 /**
+ *
  * Pharmacy – class which contains map of medications and methods to handle them, like adding, removing and printing info
  * Author: Deniz Wassmuth
  * Date: 09.12.2025
@@ -20,6 +21,7 @@ import java.util.*;
  * add plugin: maven-surefire
  * <p>
  * in GITHUB add Action: ... with maven
+ *
  */
 
 

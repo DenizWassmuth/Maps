@@ -3,6 +3,7 @@ package org.example;
 import java.util.Objects;
 
 /**
+ *
  * Medication – class which contains name, price and availability
  * Author: Deniz Wassmuth
  * Date: 09.12.2025
@@ -18,6 +19,7 @@ import java.util.Objects;
  * add plugin: maven-surefire
  * <p>
  * in GITHUB add Action: ... with maven
+ *
  */
 
 public class Medication {
