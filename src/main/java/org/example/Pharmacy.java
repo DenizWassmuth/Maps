@@ -4,12 +4,10 @@ import java.util.HashMap;
 //import java.util.Map;
 import java.util.*;
 
-
 /**
- *
- * PasswordValidator – kurze Beschreibung
+ * Pharmacy – class which contains map of medications and methods to handle them, like adding, removing and printing info
  * Author: Deniz Wassmuth
- * Date: 05.12.2025
+ * Date: 09.12.2025
  * <p>
  * KEEP IN MIND:
  * - check and/or change user and email through GitBash
@@ -23,6 +21,7 @@ import java.util.*;
  * <p>
  * in GITHUB add Action: ... with maven
  */
+
 
 public class Pharmacy {
 

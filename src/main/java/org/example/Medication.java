@@ -77,7 +77,7 @@ public class Medication {
 
     @Override
     public String toString() {
-        return  medicationName + " - Price:" + medicationPrice +
+        return  medicationName + " - Price: " + medicationPrice +
                 " - available: " + medicationAvailability;
     }
 }
