@@ -37,6 +37,10 @@ public class Pharmacy {
     }
 
     public void saveMedication(Medication medication) {
+
+        if (medicationsMap.containsKey(medication.getMedicationName())) {
+            return;
+        }
         medicationsMap.put(medication.getMedicationName(), medication);
     }
 
@@ -66,17 +70,18 @@ public class Pharmacy {
             return;
         }
 
-        if (!medicationsMap.containsKey(medicationName)) {
+        if (medicationsMap.containsKey(medicationName)) {
 
-            System.out.println("No medication found with name " + medicationName);
+            medicationsMap.remove(medicationName);
+            System.out.println(medicationName + " deleted");
+
             return;
         }
 
-        medicationsMap.remove(medicationName);
-        System.out.println(medicationName + " deleted");
+        System.out.println("No medication found with name " + medicationName);
     }
 
-    public void printMedications() {
+    public void printAllMedications() {
 
         if (isEmpty()) {
             return;
